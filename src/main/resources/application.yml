@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: nbp-exchange-service
+
+nbp:
+  api:
+    paths:
+      base: http://api.nbp.pl/api/exchangerates
+      table-a: /tables/A/{date}
+      table-c: /rates/C/{currency}/{date}
